@@ -1,7 +1,7 @@
 
-  # Multi-step Temple Registration Form
+  # Pixel-Perfect Landing Page Design
 
-  This is a code bundle for Multi-step Temple Registration Form. The original project is available at https://www.figma.com/design/OZ20jPsMhjbSfOuvpW1N2y/Multi-step-Temple-Registration-Form.
+  This is a code bundle for Pixel-Perfect Landing Page Design. The original project is available at https://www.figma.com/design/lw9AnNANRmUa13VKODUgjz/Pixel-Perfect-Landing-Page-Design.
 
   ## Running the code
 

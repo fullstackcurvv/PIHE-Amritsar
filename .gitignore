@@ -1,0 +1,10 @@
+SourceCode/frontend/node_modules/
+SourceCode/frontend/dist/
+SourceCode/backend/node_modules/
+SourceCode/backend/.env
+SourceCode/backend/.env.example
+SourceCode1/frontend/node_modules/
+SourceCode1/frontend/dist/
+SourceCode1/frontend/.env
+SourceCode1/backend/.env
+SourceCode1/*.md
