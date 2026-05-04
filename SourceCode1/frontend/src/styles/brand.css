@@ -1,0 +1,46 @@
+/* ── ISKCON Course Portal Brand Tokens ─────────────────────────────── */
+
+@theme inline {
+  /* Brand colors */
+  --color-primary:         #E8720C;
+  --color-primary-dark:    #C55E00;
+  --color-primary-light:   #FDE8D8;
+  --color-secondary:       #1A1A2E;
+  --color-accent:          #F5A623;
+  --color-bg:              #FFFAF5;
+  --color-surface:         #FFFFFF;
+  --color-surface-hover:   #F9FAFB;
+
+  /* Text */
+  --color-text-main:       #1C1C1C;
+  --color-text-muted:      #6B7280;
+  --color-text-disabled:   #9CA3AF;
+  --color-text-inverse:    #FFFFFF;
+
+  /* Borders */
+  --color-border:          #E5E7EB;
+  --color-border-focus:    #E8720C;
+
+  /* Feedback */
+  --color-success:         #10B981;
+  --color-error:           #EF4444;
+  --color-warning:         #F59E0B;
+  --color-info:            #3B82F6;
+
+  /* Fonts */
+  --font-heading: 'Cinzel', serif;
+  --font-body:    'Nunito', sans-serif;
+}
+
+/* Base typography */
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}

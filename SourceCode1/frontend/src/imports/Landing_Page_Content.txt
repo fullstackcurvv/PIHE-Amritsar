@@ -1,0 +1,183 @@
+## [Header / Navbar]
+Logo: ISKCON COURSE PORTAL
+
+* Screen 1: Landing Page (Home)
+* Home
+* About Us
+* Courses
+* How It Works
+* Exam Guidelines
+* Contact Us
+* Login
+* Register
+
+---
+
+## [Hero Section]
+
+* Learn. Understand. Transform.
+Authentic ISKCON courses designed for spiritual growth and self-realization.
+
+---
+
+## [Call-to-Action Buttons]
+
+* Explore Courses →
+* How It Works ▶
+
+---
+
+## [Features / Highlights]
+* Authentic Content
+* Expert Guidance
+* Certified Learning
+
+---
+
+## [Courses Section]
+
+### [Section Title]
+
+* Popular Courses
+## [Call-to-Action Buttons] - View All Courses →
+
+---
+
+### [Course Card 1 → Bhagavad Gita Foundation]
+* Best Seller
+* Free
+* Bhagavad Gita Foundation
+Understand the timeless wisdom of the Bhagavad Gita.
+
+* 12 Lessons
+* Beginner
+---
+
+### [Course Card 2 → Introduction to ISKCON]
+* Popular
+* Free
+* Introduction to ISKCON
+* Discover the history, philosophy and mission of ISKCON.
+
+* 10 Lessons
+* Beginner
+
+---
+
+### [Course Card 3 → Bhakti Yoga Practice]
+
+* Paid
+* Bhakti Yoga Practice
+* A practical guide to devotional service and spiritual life.
+
+* 15 Lessons
+* Intermediate
+
+---
+
+### [Course Card 4 → Srimad Bhagavatam Overview]
+
+* Paid
+* Srimad Bhagavatam Overview
+* Dive deep into the essence of Srimad Bhagavatam.
+* 18 Lessons
+* Advanced
+
+---
+
+## [How It Works]
+
+* How It Works
+
+### Step 1
+* 1. Register
+* Create your account in few simple steps.
+
+### Step 2
+* 2. Enroll
+* Choose and enroll in your desired courses.
+
+### Step 3
+* 3. Learn
+* Access lessons, study materials and exams.
+
+### Step 4
+* 4. Get Certified
+* Complete exams and earn your certificate.
+
+---
+
+## [Statistics / Achievements]
+
+* Trusted by Learners Worldwide
+
+* 25K+ Students Enrolled
+* 120+ Courses Available
+* 10K+ Exams Completed
+* 8K+ Certificates Issued
+
+---
+
+## [Primary CTA Banner]
+
+* Begin your spiritual journey today
+
+* Join thousands of learners in exploring the wisdom of Vedic knowledge.
+
+## [Call-to-Action Buttons] - Get Started Now →
+
+---
+
+## [Footer]
+
+### [Footer Column 1 → Brand]
+
+Logo - ISKCON COURSE PORTAL
+Dedicated to providing authentic Vedic knowledge for the spiritual upliftment of all.
+
+---
+
+### [Footer Column 2 → Quick Links]
+
+Quick Links
+* About Us
+* Courses
+* How It Works
+* Exam Guidelines
+* Contact Us
+
+---
+
+### [Footer Column 3 → Support]
+
+Support
+* Help Center
+* FAQs
+* Privacy Policy
+* Terms & Conditions
+
+---
+
+### [Footer Column 4 → Contact Us]
+
+Contact Us
+* [iskconcourses@example.com](mailto:iskconcourses@example.com)
+
+* +91 1234567890
+
+* ISKCON, Hare Krishna Land, India
+
+---
+
+### [Footer Column 5 → Newsletter]
+
+* Newsletter
+* Subscribe to get updates on new courses and important announcements.
+* Enter your email
+
+---
+
+## [Footer Bottom Bar]
+* © 2026 ISKCON Course Portal. All Rights Reserved.
+
+---

@@ -1,0 +1,207 @@
+{
+  "name": "Landing Page",
+  "type": "FRAME",
+  "width": 1440,
+  "height": 3200,
+  "layoutMode": "VERTICAL",
+  "primaryAxisSizingMode": "AUTO",
+  "counterAxisSizingMode": "FIXED",
+  "itemSpacing": 0,
+  "fills": [{ "type": "SOLID", "color": { "r": 0.97, "g": 0.96, "b": 0.93 } }],
+  "children": [
+
+    {
+      "name": "Navbar",
+      "type": "FRAME",
+      "layoutMode": "HORIZONTAL",
+      "primaryAxisAlignItems": "SPACE_BETWEEN",
+      "counterAxisAlignItems": "CENTER",
+      "paddingLeft": 80,
+      "paddingRight": 80,
+      "paddingTop": 16,
+      "paddingBottom": 16,
+      "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1 } }],
+      "effects": [{ "type": "DROP_SHADOW", "radius": 4, "color": { "r": 0, "g": 0, "b": 0, "a": 0.05 }, "offset": { "x": 0, "y": 2 } }],
+      "children": [
+
+        {
+          "name": "Logo",
+          "type": "FRAME",
+          "layoutMode": "HORIZONTAL",
+          "itemSpacing": 8,
+          "children": [
+            {
+              "type": "RECTANGLE",
+              "width": 40,
+              "height": 40,
+              "fills": [{ "type": "IMAGE", "imageRef": "logo.png", "scaleMode": "FIT" }]
+            },
+            {
+              "type": "TEXT",
+              "characters": "ISKCON COURSE PORTAL",
+              "style": { "fontSize": 14, "fontWeight": 700, "fills": [{ "type": "SOLID", "color": { "r": 0.1, "g": 0.1, "b": 0.1 } }] }
+            }
+          ]
+        },
+
+        {
+          "name": "Menu",
+          "type": "FRAME",
+          "layoutMode": "HORIZONTAL",
+          "itemSpacing": 32,
+          "children": [
+            { "type": "TEXT", "characters": "Home", "style": { "fontSize": 14, "fontWeight": 600, "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 0.5, "b": 0 } }] } },
+            { "type": "TEXT", "characters": "About Us" },
+            { "type": "TEXT", "characters": "Courses" },
+            { "type": "TEXT", "characters": "How It Works" },
+            { "type": "TEXT", "characters": "Exam Guidelines" },
+            { "type": "TEXT", "characters": "Contact Us" }
+          ]
+        },
+
+        {
+          "name": "Auth Buttons",
+          "type": "FRAME",
+          "layoutMode": "HORIZONTAL",
+          "itemSpacing": 12,
+          "children": [
+            { "type": "RECTANGLE", "cornerRadius": 8, "width": 80, "height": 36, "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1 } }] },
+            { "type": "RECTANGLE", "cornerRadius": 8, "width": 100, "height": 36, "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 0.5, "b": 0 } }] }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "name": "Hero Section",
+      "type": "FRAME",
+      "layoutMode": "HORIZONTAL",
+      "paddingLeft": 80,
+      "paddingRight": 80,
+      "paddingTop": 80,
+      "paddingBottom": 80,
+      "children": [
+
+        {
+          "name": "Hero Text",
+          "type": "FRAME",
+          "layoutMode": "VERTICAL",
+          "itemSpacing": 16,
+          "children": [
+            { "type": "TEXT", "characters": "Learn. Understand. Transform.", "style": { "fontSize": 48, "fontWeight": 700 } },
+            { "type": "TEXT", "characters": "Authentic ISKCON courses designed for spiritual growth and self-realization.", "style": { "fontSize": 16 } }
+          ]
+        },
+
+        {
+          "type": "RECTANGLE",
+          "width": 600,
+          "height": 400,
+          "fills": [{ "type": "IMAGE", "imageRef": "hero1.png", "scaleMode": "FILL" }]
+        }
+
+      ]
+    },
+
+    {
+      "name": "Courses Section",
+      "type": "FRAME",
+      "layoutMode": "VERTICAL",
+      "paddingLeft": 80,
+      "paddingRight": 80,
+      "paddingTop": 40,
+      "itemSpacing": 24,
+      "children": [
+
+        { "type": "TEXT", "characters": "Popular Courses", "style": { "fontSize": 24, "fontWeight": 600 } },
+
+        {
+          "name": "Cards",
+          "type": "FRAME",
+          "layoutMode": "HORIZONTAL",
+          "itemSpacing": 24,
+          "children": [
+
+            {
+              "type": "FRAME",
+              "layoutMode": "VERTICAL",
+              "cornerRadius": 12,
+              "padding": 16,
+              "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1 } }],
+              "children": [
+                { "type": "RECTANGLE", "height": 140, "fills": [{ "type": "IMAGE", "imageRef": "course1.png" }] },
+                { "type": "TEXT", "characters": "Bhagavad Gita Foundation" },
+                { "type": "TEXT", "characters": "Understand the timeless wisdom of the Bhagavad Gita." }
+              ]
+            },
+
+            {
+              "type": "FRAME",
+              "layoutMode": "VERTICAL",
+              "children": [
+                { "type": "RECTANGLE", "height": 140, "fills": [{ "type": "IMAGE", "imageRef": "course2.png" }] },
+                { "type": "TEXT", "characters": "Introduction to ISKCON" }
+              ]
+            },
+
+            {
+              "type": "FRAME",
+              "layoutMode": "VERTICAL",
+              "children": [
+                { "type": "RECTANGLE", "height": 140, "fills": [{ "type": "IMAGE", "imageRef": "course3.png" }] },
+                { "type": "TEXT", "characters": "Bhakti Yoga Practice" }
+              ]
+            },
+
+            {
+              "type": "FRAME",
+              "layoutMode": "VERTICAL",
+              "children": [
+                { "type": "RECTANGLE", "height": 140, "fills": [{ "type": "IMAGE", "imageRef": "course4.png" }] },
+                { "type": "TEXT", "characters": "Srimad Bhagavatam Overview" }
+              ]
+            }
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "name": "CTA Banner",
+      "type": "FRAME",
+      "layoutMode": "HORIZONTAL",
+      "padding": 40,
+      "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 0.5, "b": 0 } }],
+      "children": [
+        { "type": "TEXT", "characters": "Begin your spiritual journey today", "style": { "fontSize": 24, "fontWeight": 600, "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1 } }] } }
+      ]
+    },
+
+    {
+      "name": "Footer",
+      "type": "FRAME",
+      "layoutMode": "HORIZONTAL",
+      "paddingLeft": 80,
+      "paddingRight": 80,
+      "paddingTop": 40,
+      "paddingBottom": 40,
+      "fills": [{ "type": "SOLID", "color": { "r": 0.05, "g": 0.1, "b": 0.2 } }],
+      "children": [
+
+        {
+          "type": "FRAME",
+          "layoutMode": "VERTICAL",
+          "children": [
+            { "type": "TEXT", "characters": "ISKCON COURSE PORTAL", "style": { "fills": [{ "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1 } }] } },
+            { "type": "TEXT", "characters": "Dedicated to providing authentic Vedic knowledge for the spiritual upliftment of all." }
+          ]
+        }
+
+      ]
+    }
+
+  ]
+}
